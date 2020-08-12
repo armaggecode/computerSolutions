@@ -1,0 +1,107 @@
+CRITICAL - 2020-08-09 12:55:18 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\computerSolutions\system\Common.php(1119): CodeIgniter\View\View->render('viewCustomer', Array, true)
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(14): view('viewCustomer', Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 17:52:50 --> There is no data to {0}.
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(98): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 17:56:27 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\computerSolutions\system\Model.php on line 870
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(870): CodeIgniter\Model->doProtectFields('3')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(97): CodeIgniter\Model->update(Array, '3', Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 17:56:36 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\computerSolutions\system\Model.php on line 870
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(870): CodeIgniter\Model->doProtectFields('3')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(97): CodeIgniter\Model->update(Array, '3', Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 18:02:28 --> There is no data to {0}.
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(99): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 18:07:11 --> There is no data to {0}.
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(98): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 19:58:10 --> Too few arguments to function App\Controllers\CustomerController::updateCustomer(), 0 passed in C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#1 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-09 20:41:28 --> There is no data to {0}.
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(103): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 20:48:47 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\computerSolutions\system\Model.php on line 870
+#0 C:\xampp\htdocs\computerSolutions\system\Model.php(870): CodeIgniter\Model->doProtectFields('CustomerID = 3')
+#1 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(102): CodeIgniter\Model->update(Array, 'CustomerID = 3')
+#2 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->updateCustomer()
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-09 21:36:52 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\computerSolutions\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\computerSolutions\system\Common.php(1119): CodeIgniter\View\View->render('viewCustomer', Array, true)
+#2 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(14): view('viewCustomer', Array)
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-09 21:43:14 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\computerSolutions\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\computerSolutions\system\Common.php(1119): CodeIgniter\View\View->render('viewCustomer', Array, true)
+#2 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(14): view('viewCustomer', Array)
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-09 21:43:32 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\computerSolutions\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\computerSolutions\system\Common.php(1119): CodeIgniter\View\View->render('viewCustomer', Array, true)
+#2 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(14): view('viewCustomer', Array)
+#3 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-09 21:45:01 --> Use of undefined constant err - assumed 'err' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\computerSolutions\app\Views\viewCustomer.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\computerSolutions\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\computerSolutions\system\Common.php(1119): CodeIgniter\View\View->render('viewCustomer', Array, true)
+#3 C:\xampp\htdocs\computerSolutions\app\Controllers\CustomerController.php(14): view('viewCustomer', Array)
+#4 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#5 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\computerSolutions\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\computerSolutions\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
